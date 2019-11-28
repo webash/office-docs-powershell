@@ -133,7 +133,10 @@ If you want to use multi-factor authentication (MFA) to connect to Exchange Onli
 Get-PSSession | Remove-PSSession
 ```
 
-## Connect to Exchange Online PowerShell V2 Module(Public Preview)
+## Connect to Exchange Online PowerShell V2 Module (Public Preview)
+
+> [!NOTE]
+> The Exchange Online PowerShell V2 Module is not supported in PowerShell Core (v6+ on Windows, macOS, Linux, or Windows Nano Server). As a workaround, you can install the module on a computer that's running a supported version of Windows (physical or virtual), and use remote desktop software to connect.
 
 1. On your local computer, open Windows PowerShell (as Administrator) and run the following command.
 
